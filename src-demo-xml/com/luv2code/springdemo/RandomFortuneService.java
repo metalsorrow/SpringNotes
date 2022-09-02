@@ -1,7 +1,9 @@
 package com.luv2code.springdemo;
 
 import java.lang.Math;
-import java.util.ArrayList;   
+import java.util.ArrayList;
+
+import com.luv2code.springdemo.annotations.FortuneService;   
 
 public class RandomFortuneService implements FortuneService {
 

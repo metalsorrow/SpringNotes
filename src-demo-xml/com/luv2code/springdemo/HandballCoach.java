@@ -1,5 +1,8 @@
 package com.luv2code.springdemo;
 
+import com.luv2code.springdemo.annotations.Coach;
+import com.luv2code.springdemo.annotations.FortuneService;
+
 public class HandballCoach implements Coach {
 	
 	private FortuneService fortuneService;
