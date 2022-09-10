@@ -30,6 +30,7 @@
 	<form:radiobuttons path="favoriteLanguage" items="${student.favoriteLanguageOptions}"  />
 	<br><br>
 	
+	
 	<br><br>
 	Linux <form:checkbox path="operatingSystems" value="Linux"/>
 	Windows <form:checkbox path="operatingSystems" value="Windows"/>
