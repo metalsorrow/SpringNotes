@@ -13,5 +13,7 @@ The customer id confirmed: ${customer.firstName} ${customer.lastName }
 Free passes: ${customer.freePasses}
 <br> <br>
 Postal Code: ${customer.postalCode}
+<br> <br>
+Course Code: ${customer.courseCode}
 </body>
 </html>
