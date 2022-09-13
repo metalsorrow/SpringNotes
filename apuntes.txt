@@ -110,3 +110,10 @@
 * Manejar regexp en java
 * Mediante el uso de theBindingResult podemos ver el detalle de los errores del formulario y asi controlar los errores que no conozcamos de forma directa y especifica
 * Manejar array de validaciones -> https://www.udemy.com/course/spring-hibernate-tutorial/learn/lecture/7407632#questions
+
+===========
+##Seccion18:
+===========
+* Hibernate -> a framework for retrive data from database -> object to relational mapping (ORM)
+* hibernate se comunica con JDBC para soportar las queries
+* Hibernate 5.2 utiliza java 8
