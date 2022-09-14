@@ -1,5 +1,5 @@
 ===========
-##Seccion2:
+##Seccion 2:
 ===========
 * EJB un asco hasta la version J2EE 1.4, luego Spring tomo fuerza hasta ahora
 * Aprender ambos Spring y Java EE
@@ -9,7 +9,7 @@
 * Diferents layers of architecture in spring boot
 
 ===========
-##Seccion3:
+##Seccion 3:
 ===========
 * Spring permite configurar que clase utilizar a partir de un archivo
 * La injeccion de dependencia -> permite el uso controlado de clases de forma estandar
@@ -21,7 +21,7 @@
   * Java Beans -> https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans-introduction
 
 ===========
-##Seccion5:
+##Seccion 5:
 ===========
 * Setter method injection -> injecta a partir del nombre del servicio y lo muta agregando set en el principio
   ej) myService -> setMyService()
@@ -30,7 +30,7 @@
 * Spring nos permite la injeccion de componentes mediante beans y la inverion de dependencia, No es solo un modulo de micro-servicios
 
 ===========
-##Seccion6:
+##Seccion 6:
 ===========
 * Spring por default sus beans son singleton
   *) Cacheado en memoria
@@ -40,14 +40,14 @@
 * For "prototype" scoped beans, Spring does not call the destroy method.  Gasp!
 
 ===========
-##Seccion7:
+##Seccion 7:
 ===========
 * Annotation, tags que refieren a cierto comportamiento en momento de compilacion como @overwrite
 * Java Annotation permite configurar un bean sin necesariamente generar un archivo aparte como xml, solo se debe establecer el contexto a analizar los beans
 * Se puede declarar el bean de forma explicita con @Component(variable), y luego ser declarada en la injeccion o puedes tomar el valor por defecto estableciendo el nombre de la clase con el letras en minusculas en la injeccion
 
 ===========
-##Seccion8:
+##Seccion 8:
 ===========
 * Autowiring (Constructtor , setter and fild injection) -> permite la injeccion automatica de los componentes a partir de los beans expuestos, con lo que puede ser replasado sin castearlo de alguna forma en alguna configuracion.
 * En las ultimas versiones incluso no es necesario la annotation @Autowired
@@ -59,7 +59,7 @@
 * Inject  propertis using Java Annotations -> http://www.luv2code.com/downloads/spring-hibernate/spring-props-annotation-demo.zip *class 74 *
 
 ===========
-##Seccion9:
+##Seccion 9:
 ===========
 * Mismas funciones antes vistas, pero con nueva nomenclatura
 * Con las Java annotations se puede manejar el scope agregando simplemente el tag @Scope
@@ -67,7 +67,7 @@
 * No entiendo esto -> https://www.udemy.com/course/spring-hibernate-tutorial/learn/lecture/5389290#questions
 
 ===========
-##Seccion10:
+##Seccion 10:
 ===========
 * Java code configurations -> ahorrar archivos xml de configuracion por el lado de spring
 * En el archivo de configuracion java, disponivilizaremos los diferentes servicios disponibles para su uso, el cual debe ser especificado en "context", cual metodo ultilizaremos segun el bean que queramos.
@@ -76,7 +76,7 @@
 * Para injectar varoes de un archivo properties es necesario injectar un servicio previamente PropertySourcesPlaceholderConfigurer en las versiones x<=4.3 de Spring
 
 ===========
-##Seccion11:
+##Seccion 11:
 ===========
 * MVC Spring model -> tienes varios books buenos c;
 *Tomcat 9 no permite deployar springboot 4, al momento del video
@@ -84,7 +84,7 @@
 *ref https://www.udemy.com/course/spring-hibernate-tutorial/learn/lecture/5614514#questions
 
 ===========
-##Seccion12:
+##Seccion 12:
 ===========
 * Tomcat automaticamente checkea los archivos del caliento para hacer cambios en caliente
 * los @Controller nos permite manejar el acceso a las rutas y las vistas pueden obtener varibales a partir de estas mediante los modelos
@@ -92,12 +92,12 @@
 * warfile -> This includes all of your web pages, images, css etc. It also includes the WEB-INF directory which includes your classes in WEB-INF/classes and supporting JAR files in WEB-INF/lib.
 
 ===========
-##Seccion13:
+##Seccion 13:
 ===========
 * Binding request params nos permite linkear en el constructor del modelo mvc gracias a spring
 
 ===========
-##Seccion15:
+##Seccion 15:
 ===========
 * java EE no es compatible con spring 5
 * Hibernate validator 7 utiliza Jakarta Java EE 9
@@ -105,15 +105,28 @@
 * Con Hibernate validator podemos realizar validaciones mediante esta libreria en java
 * eliminar tomcat --> netstat -ano | findstr :8080 --> taskkill /PID <PID> /F
 ===========
-##Seccion16:
+##Seccion 16:
 ===========
 * Manejar regexp en java
 * Mediante el uso de theBindingResult podemos ver el detalle de los errores del formulario y asi controlar los errores que no conozcamos de forma directa y especifica
 * Manejar array de validaciones -> https://www.udemy.com/course/spring-hibernate-tutorial/learn/lecture/7407632#questions
 
 ===========
-##Seccion18:
+##Seccion 18:
 ===========
 * Hibernate -> a framework for retrive data from database -> object to relational mapping (ORM)
 * hibernate se comunica con JDBC para soportar las queries
 * Hibernate 5.2 utiliza java 8
+
+===========
+##Seccion 20:
+===========
+* Existen 2 formas de manejar el mapping de hibernate (XML & java annotation)
+* jpa es el estandar, ya que hace implementacion de hibernate desde abajo (es mejor practica utilizar JPA annotations)
+
+===========
+##Seccion 21:
+===========
+* Elementos principales  sessionFactory & session
+* Hibernate permite el mapeo de forma facil en la capa de backend, permitiento tener una mejor idea de lo que existe en bd y realizar valdiaciones al momento de codificar.
+* Requiere un doble trabajo ya que aparte de modelar la bd, es necesario modelar las clases en java
