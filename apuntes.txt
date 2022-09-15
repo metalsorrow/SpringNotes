@@ -130,3 +130,5 @@
 * Elementos principales  sessionFactory & session
 * Hibernate permite el mapeo de forma facil en la capa de backend, permitiento tener una mejor idea de lo que existe en bd y realizar valdiaciones al momento de codificar.
 * Requiere un doble trabajo ya que aparte de modelar la bd, es necesario modelar las clases en java
+* Las peticiones siempre deben ser manejadas de forma que se inicie una conexion e independiente del resultado, finalice la session -> factory.close();
+* Read dates with hibernate -> https://www.udemy.com/course/spring-hibernate-tutorial/learn/lecture/7314676#overview
