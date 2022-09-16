@@ -132,3 +132,17 @@
 * Requiere un doble trabajo ya que aparte de modelar la bd, es necesario modelar las clases en java
 * Las peticiones siempre deben ser manejadas de forma que se inicie una conexion e independiente del resultado, finalice la session -> factory.close();
 * Read dates with hibernate -> https://www.udemy.com/course/spring-hibernate-tutorial/learn/lecture/7314676#overview
+
+===========
+##Seccion 22:
+===========
+* en esta seccion existe una pequeña descripcion del mapeo de bases de datos compuestas en hibernate 
+
+===========
+##Seccion 23:
+===========
+* 1 a 1 -> relaciones de detalles 
+* Entity LifeCycle -> Detach, Merge, Persist, Remove, Refresh
+* Tipos de cascade -> persist, remove, refresh, detach, merge, all -> puedes configurar 1 o varios tipos
+* el Binding bi-directional permite la busqueda desde ambos objetos en caso de necesitar informacion de cualquiera de estos -> no es necesario modificar la db ya que lo realiza con mappingBy annotation
+* Importante cerrar las sessiones, como tambien el factorySessions
