@@ -146,3 +146,15 @@
 * Tipos de cascade -> persist, remove, refresh, detach, merge, all -> puedes configurar 1 o varios tipos
 * el Binding bi-directional permite la busqueda desde ambos objetos en caso de necesitar informacion de cualquiera de estos -> no es necesario modificar la db ya que lo realiza con mappingBy annotation
 * Importante cerrar las sessiones, como tambien el factorySessions
+===========
+##Seccion 24:
+===========
+* la annoation mappedBy apunta a los objetos referenciados a travesd del vinculo establecido en el objeto hijo, en este caso course por la annotation JoinColumn, de esta forma se puede obtener todos los cursos de un instructor y lo mismo al reves.
+
+===========
+##Seccion 25:
+===========
+* Eager vs lazy load -> en backend eager trae todo, lo que causa demora. Se recomienda utilizar lazy load, en caso de requerir solo al instructor, no es necesario traer todos los courses, y cuando sea necesario, los ira a buscar. 
+* Lazy loading es determinado en la relacion del annotation, indicando como fetch=FetchType.LAZY
+*Defaul Fetch types -> fetch dependiendo del tipo de relacion en bd tiene diferentes estados.
+*Lazy Laoading es necesario tener la conexion abierta, ya que en caso de que esto no se cumpla, no podrá hacer la busqueda cuando sea necesaria.
