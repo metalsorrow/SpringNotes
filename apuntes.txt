@@ -158,3 +158,8 @@
 * Lazy loading es determinado en la relacion del annotation, indicando como fetch=FetchType.LAZY
 *Defaul Fetch types -> fetch dependiendo del tipo de relacion en bd tiene diferentes estados.
 *Lazy Laoading es necesario tener la conexion abierta, ya que en caso de que esto no se cumpla, no podrá hacer la busqueda cuando sea necesaria.
+
+===========
+##Seccion 28:
+===========
+*
