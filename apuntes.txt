@@ -162,4 +162,6 @@
 ===========
 ##Seccion 28:
 ===========
-*
+* DAOs -> Data Access Object -> conexion con la base de datos
+* Escaneo de Entities -> mediante el bean de sessionFactory, puede buscar todas las entidades mapeadas, indicadas en la propiedad packagesToScan, apuntanto al package requerido.
+* En la sessionFactory va inyectado el dataSource con el cual se autentifica la bd, indicando las credenciales. Esto se relaiza mediante las injecciones.
