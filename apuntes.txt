@@ -164,4 +164,10 @@
 ===========
 * DAOs -> Data Access Object -> conexion con la base de datos
 * Escaneo de Entities -> mediante el bean de sessionFactory, puede buscar todas las entidades mapeadas, indicadas en la propiedad packagesToScan, apuntanto al package requerido.
-* En la sessionFactory va inyectado el dataSource con el cual se autentifica la bd, indicando las credenciales. Esto se relaiza mediante las injecciones.
+* En la sessionFactory va inyectado el dataSource con el cual se autentifica la bd, indicando las credenciales. Esto se relaiza mediante las injecciones. referencia https://www.udemy.com/course/spring-hibernate-tutorial/learn/lecture/5836806#overview
+
+===========
+##Seccion 29:
+===========
+* Manejo de refactor para separar capas Dao, services, controller, view -> https://www.udemy.com/course/spring-hibernate-tutorial/learn/lecture/5888550#overview
+* Projecto con multiple data https://drive.google.com/file/d/1-Q6HLvZxOC8Z9XrIfVkMWe_3ywfHpkYF/view?usp=sharing
