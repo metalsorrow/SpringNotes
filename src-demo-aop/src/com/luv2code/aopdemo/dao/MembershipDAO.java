@@ -8,4 +8,8 @@ public class MembershipDAO {
 		System.out.println(getClass()+": DOING STUFF: ADDING A MEMBERSHIP ACCOUNT");
 		return 1;
 	}
+	
+	public void goToSleep() {
+		System.out.println(getClass()+": Sleeping");
+	}
 }

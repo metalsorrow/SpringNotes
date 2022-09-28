@@ -15,7 +15,12 @@ public class MyDemoLoggingAspect {
 	//generic @Before("execution(public void add*())")
 	//too open method @Before("execution(public * add*())")
 	
-	@Before("execution(public void addAccount())")
+	// parameters 
+	//@Before("execution(* add*(com.luv2code.aopdemo.Account))")
+	//@Before("execution(* add*(com.luv2code.aopdemo.Account, *))")
+	//@Before("execution(* add*(com.luv2code.aopdemo.Account, ..))")
+	//@Before("execution(* add*(..))")
+	@Before("execution(* com.luv2code.aopdemo.dao.*.*(..))")
 	public void beforeAddAccountAdvice() {
 		System.out.println("\n========>>>>> Executing @Before advice on addAccount()");
 	}
