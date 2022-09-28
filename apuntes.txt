@@ -171,3 +171,20 @@
 ===========
 * Manejo de refactor para separar capas Dao, services, controller, view -> https://www.udemy.com/course/spring-hibernate-tutorial/learn/lecture/5888550#overview
 * Projecto con multiple data https://drive.google.com/file/d/1-Q6HLvZxOC8Z9XrIfVkMWe_3ywfHpkYF/view?usp=sharing
+
+===========
+##Seccion 33:
+===========
+*sort values from MVC jsp -> https://www.udemy.com/course/spring-hibernate-tutorial/learn/lecture/24414656#overview
+
+===========
+##Seccion 34:
+===========
+*Hay 2 problemas en implementar soluciones directas en las clases -> code Tangling y code Scattering.
+*Cross-cutting-concerns es una especie de middleware que esta entre las diferentes capas del sistema.
+*AOP -> Aspect-Oriented-Programming
+** ventajas -> reusable modules, resolve code tangling, resolve code scatter, applied selectively based on configuration.
+** desventajas -> too many aspects and app flow is hard to fallow, minor performance cost for aspect execution (run-time weaving).
+* Details, Terminology & Advice AOP -> https://www.udemy.com/course/spring-hibernate-tutorial/learn/leSpring)
+* AOP Framework(Spring AOP, AspectJ)
+* Spring AOP mas simple y menos control que AspectJ
