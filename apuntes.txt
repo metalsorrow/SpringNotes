@@ -188,3 +188,10 @@
 * Details, Terminology & Advice AOP -> https://www.udemy.com/course/spring-hibernate-tutorial/learn/leSpring)
 * AOP Framework(Spring AOP, AspectJ)
 * Spring AOP mas simple y menos control que AspectJ
+
+===========
+##Seccion 36:
+===========
+* Pointcut expression -> aop -> middlewares -> lifeTime Cycle -> gatillar funciones en momentos que queramos entre los diferentes flujos de la app.
+* Podemos apuntar directamener a las clases que necesitamos utilizar AOP.
+* este tiene una estructura especifica para indicar los AOP, se encuentran en esta seccion
