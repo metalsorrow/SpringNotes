@@ -195,3 +195,16 @@
 * Pointcut expression -> aop -> middlewares -> lifeTime Cycle -> gatillar funciones en momentos que queramos entre los diferentes flujos de la app.
 * Podemos apuntar directamener a las clases que necesitamos utilizar AOP.
 * este tiene una estructura especifica para indicar los AOP, se encuentran en esta seccion
+
+===========
+##Seccion 37:
+===========
+* Patrones de parametros wildcards para Pointcut espression "*" ".." "()"
+
+
+===========
+##Seccion 38:
+===========
+* pointcut annotation inherate, Pointcut declarations viene a evitar el codigo repetido.
+* se puede condicionar ciertos aop para manejar en base a IFs
+* ojo con los getter & setters, ya que pueden caer bajo esta condicion
