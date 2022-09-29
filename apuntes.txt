@@ -208,3 +208,13 @@
 * pointcut annotation inherate, Pointcut declarations viene a evitar el codigo repetido.
 * se puede condicionar ciertos aop para manejar en base a IFs
 * ojo con los getter & setters, ya que pueden caer bajo esta condicion
+
+===========
+##Seccion 39:
+===========
+* puedes controlar el orden con la notacion @Order para manejar su ejecucion de los Aspect AOP
+* order is undifined my default, lo que hace que spring maneje por su lada la ejecucion segun su prioridad
+
+===========
+##Seccion 40:
+===========
