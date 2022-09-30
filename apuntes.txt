@@ -214,7 +214,9 @@
 ===========
 * puedes controlar el orden con la notacion @Order para manejar su ejecucion de los Aspect AOP
 * order is undifined my default, lo que hace que spring maneje por su lada la ejecucion segun su prioridad
+* tambien puedes extender en otro archivo los aop que sean necesarios
 
 ===========
 ##Seccion 40:
 ===========
+* Puedes extraer los datos a partir de los middleware aop con @JoinPoint
