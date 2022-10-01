@@ -226,3 +226,13 @@
 ===========
 * con @AfterReturning puedes modificar o obtener los valores luego de haber ejecutado alguna funcion con AOP
 * no es necesario retornar algun valor en AOP, solo modificando el objeto a retornar, este queda modificado para la salida de la funcion interceptada
+
+===========
+##Seccion 42:
+===========
+* podemos interceptar los errores con @AfterThrowing y manejarlos o continuar con el error añadiendo una nueva funcionalidad
+
+===========
+##Seccion 43:
+===========
+* podemos interceptar los errores con @After se ejecuta antes de @AfterThrowing , pero @after no tiene acceso al error.
