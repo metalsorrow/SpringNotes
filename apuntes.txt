@@ -245,3 +245,19 @@
 ===========
 ##Seccion 45:
 ===========
+* Es necesario configurar el AOP a nivel del archivo de confirugracion de spring
+
+===========
+##Seccion 46:
+===========
+* Maven lee el config file -> checkea el repo local -> sino existe, lo descarga -> despues permite correr el proyecto
+* Project Object Model -> POM file -> siempre en root -> indica las dependencias, plugins y metadata
+	* metadata: versiones, output files
+	* dependencies: lista de dependencias
+	* task to run: Junit test reports etc...
+* GAV: Group ID, Artifact ID and Version
+* cordenadas de dependencias: search.maven.org o mvnrepository.com (3er party website) -> buscar dependencia a agregar al pom.xml
+* archetypes: formas de iniciar un projecto en maven desde su estructura (start project from cli or IDE) -> http://maven.apache.org/archetypes
+* existen 2 repositorios * local repository <usuario>/.m2/repository * central repository <desde internet>
+
+		
