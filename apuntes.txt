@@ -259,5 +259,13 @@
 * cordenadas de dependencias: search.maven.org o mvnrepository.com (3er party website) -> buscar dependencia a agregar al pom.xml
 * archetypes: formas de iniciar un projecto en maven desde su estructura (start project from cli or IDE) -> http://maven.apache.org/archetypes
 * existen 2 repositorios * local repository <usuario>/.m2/repository * central repository <desde internet>
+* se reciclan a nivel general en los repositorios locales por la carpeta m2
+* tambien existen los repositorios privados de maven, como jfrog=artifactory, sonatype=nexus, apache=archiva
 
-		
+===========
+##Seccion 47:
+===========		
+* Spring security ->
+* configurar server with security con maven spring y sin utilizar xml https://www.udemy.com/course/spring-hibernate-tutorial/learn/lecture/8355872#overview
+* Es un poco complicado iniciar un proyecto en spring mv
+* Ojo con utilizar versiones incompatibles entre spring framework y spring security, buscar versiones compatibles
