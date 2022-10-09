@@ -269,3 +269,10 @@
 * configurar server with security con maven spring y sin utilizar xml https://www.udemy.com/course/spring-hibernate-tutorial/learn/lecture/8355872#overview
 * Es un poco complicado iniciar un proyecto en spring mv
 * Ojo con utilizar versiones incompatibles entre spring framework y spring security, buscar versiones compatibles
+
+===========
+##Seccion 51:
+===========
+* CSRF attacks -> movimientos no deseados de productos o elementos invisibles  (spring security valida este tipo de cosas)
+* no se recomienda para aplicaciones no webs 
+* <form:form> lo agrega de forma automatica, sino, es necesarui undicar esta propiedad de forma manual
