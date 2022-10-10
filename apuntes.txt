@@ -276,3 +276,8 @@
 * CSRF attacks -> movimientos no deseados de productos o elementos invisibles  (spring security valida este tipo de cosas)
 * no se recomienda para aplicaciones no webs 
 * <form:form> lo agrega de forma automatica, sino, es necesarui undicar esta propiedad de forma manual
+
+===========
+##Seccion 54:
+===========
+* Podemos manejar el acceso en las diferentes rutas mediante el archivo "DemoSecurityConfig.java" en el cual se sobreescriben configuraciones para establecer las reglas a validar con spring security.
