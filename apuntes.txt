@@ -281,3 +281,9 @@
 ##Seccion 54:
 ===========
 * Podemos manejar el acceso en las diferentes rutas mediante el archivo "DemoSecurityConfig.java" en el cual se sobreescriben configuraciones para establecer las reglas a validar con spring security.
+
+===========
+##Seccion 55:
+===========
+* configurar conexion a bd https://www.udemy.com/course/spring-hibernate-tutorial/learn/lecture/9302348#overview
+* la carpeta src/main/resources es la carpeta standard para entregar archivos a maven
