@@ -293,3 +293,9 @@
 ##Seccion 56:
 ===========
 *Mejores practicas de encriptacion: https://www.udemy.com/course/spring-hibernate-tutorial/learn/lecture/9375956#overview - http://www.luv2code.com/password-hashing-best-practices
+
+===========
+##Seccion 57:
+===========
+* con la libreria Jackson se manipulan los json se forma facil, para pasar de json a POJO y viseverza.
+* podemos controlar las variables que no nos interese para no generar los POJOs innecesarios -> @JsonIgnoreProperties(ignoreUnknown=true) 
