@@ -299,3 +299,10 @@
 ===========
 * con la libreria Jackson se manipulan los json se forma facil, para pasar de json a POJO y viseverza.
 * podemos controlar las variables que no nos interese para no generar los POJOs innecesarios -> @JsonIgnoreProperties(ignoreUnknown=true) 
+
+===========
+##Seccion 61:
+===========
+* Debemos establecer un objeto de respuesta POJOs para mapear los errores mediante este y asi de igual forma manejar dentro del controlador para tomar esta respuesta en caso de algun error.
+* el POJO de error puede ser heredado para menejar la respuesta de forma diferente.
+* podemos tambien agregar un controlador global para errores, no es buena practica dejar los errores estandar de java por temas de seguridad
