@@ -318,3 +318,16 @@
 * spring boot starter web es un packete de muchas librerias bases, con lo que no debemos configurar todo el ambiente, sino, los modulos customizados en caso de necesitarlo, existen para cada framework de spring y podemos agregar cuanto queramos en initializer
 * puedes ver los starter y las dependencias en los ides
 * puedes concatenar multiples pom con la tag parent y necesita plugins https://www.udemy.com/course/spring-hibernate-tutorial/learn/lecture/12662294#questions
+
+===========
+##Seccion 71:
+===========
+* podemos agregar la carga reactiva en spring mediante la depencencia springboot-devtools
+* con Spring boot actuator podemos, agrega varios endpoint para revisar el estado de la aplicacion. Incluso podemos imprimir las beans existentes "PERO ESTO CAE EN PROBLEMAS DE SEGURIDAD"
+* con spring security podemos agregar facilmente proteccion para estas rutas de informacion sensible, como /mappings o /beans
+
+===========
+##Seccion 72:
+===========
+* podemos ejecutar mvnw o java -jar para correr la aplicacion en spring boot, ya que los contenedores de aplicacion estan contenidos dentro del mismo proyecto.
+* interesante para los deploy y desarrollo https://www.udemy.com/course/spring-hibernate-tutorial/learn/lecture/12688421#questions/12628778
