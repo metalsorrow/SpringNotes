@@ -331,3 +331,10 @@
 ===========
 * podemos ejecutar mvnw o java -jar para correr la aplicacion en spring boot, ya que los contenedores de aplicacion estan contenidos dentro del mismo proyecto.
 * interesante para los deploy y desarrollo https://www.udemy.com/course/spring-hibernate-tutorial/learn/lecture/12688421#questions/12628778
+
+===========
+##Seccion 73:
+===========
+* podemos injectar las variables que queramos y llamarlas con @Value desde el application.properties
+* hay muchas porperties para configurar spring y sus diferentes framework.
+* hay diferentes clasificaciones para las properties, tambien aqui se cuenta con un link que redirige a el detalle par los diferentes propertieshttps://www.udemy.com/course/spring-hibernate-tutorial/learn/lecture/12703343#questions
