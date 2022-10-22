@@ -338,3 +338,10 @@
 * podemos injectar las variables que queramos y llamarlas con @Value desde el application.properties
 * hay muchas porperties para configurar spring y sus diferentes framework.
 * hay diferentes clasificaciones para las properties, tambien aqui se cuenta con un link que redirige a el detalle par los diferentes propertieshttps://www.udemy.com/course/spring-hibernate-tutorial/learn/lecture/12703343#questions
+
+===========
+##Seccion 74:
+===========
+* como pudimos ver con las application.properties, podemos configurar variables sin crear xml o clases java para configurar el ambiente, por lo que es importante revisar estas propiedades www.luv2code.com/spring-boot-props
+* vamos  a mapear con jpa para crear implementaciones dinamicas independiente del "vendor"
+* podemos agregar una capa de servicios para implementar alguna modificacion en general para los daos, como por ejemplo, manejar las annotations de transaccion como se vio en esta seccion.
