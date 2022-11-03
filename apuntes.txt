@@ -350,3 +350,15 @@
 ##Seccion 75:
 ===========
 * es importante indicar el qualifier en caso de contar con varias implementaciones en la capa DAO
+
+===========
+##Seccion 76:
+===========
+* spring data jpa permite simplemente creando una interfaz que extiende de JpaRepository <clase, tipoDatoIdentificador> genera todo el mapeo del CRUD.
+* en caso de necesitar mas opciones adoc www.luv2code.com/spring-data-jpa-defining-custom-queries
+
+===========
+##Seccion 77:
+===========
+* podemos eliminar la capa rest y services utilizando el dependencia spring-boot-starter-data-rest, con lo que podemos reducir nuestro codigo en aplicaciones standars
+* mayor detalle de las propiedades en www.luv2code.com/spring-boot-props
