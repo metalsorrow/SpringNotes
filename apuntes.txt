@@ -362,3 +362,8 @@
 ===========
 * podemos eliminar la capa rest y services utilizando el dependencia spring-boot-starter-data-rest, con lo que podemos reducir nuestro codigo en aplicaciones standars
 * mayor detalle de las propiedades en www.luv2code.com/spring-boot-props
+
+===========
+##Seccion 83:
+===========
+* importante revisar esta seccion, mucha informacion importante sobre implementaciones como con spring + aws + angular, entre otra informacion
